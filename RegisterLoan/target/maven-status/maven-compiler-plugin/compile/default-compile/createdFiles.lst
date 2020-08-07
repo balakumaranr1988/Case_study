@@ -1,0 +1,8 @@
+com\Register\Loan\service\RegisterLoanService.class
+com\Register\Loan\models\RegisterLoanRequest.class
+com\Register\Loan\repository\RegisterLoanRepository.class
+com\Register\Loan\RegisterLoanApplication.class
+com\Register\Loan\controller\RegisterLoanController.class
+com\Register\Loan\models\RegisterLoanDetail.class
+com\Register\Loan\models\RegisterLoanResponse.class
+com\Register\Loan\models\CustomerUpdateDetail.class

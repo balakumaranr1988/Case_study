@@ -1,0 +1,66 @@
+2020-08-07 14:57:07.459  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : The RegisterLoanApplication app
+2020-08-07 14:57:07.468 ERROR ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : Error level log message
+2020-08-07 14:57:08.284  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : Starting RegisterLoanApplication on ctsjcloud115 with PID 3264 (C:\Users\javacloudmc91\Downloads\aug7_final\RegisterLoan\target\classes started by javacloudmc91 in C:\Users\javacloudmc91\Downloads\aug7_final\RegisterLoan)
+2020-08-07 14:57:08.289  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : No active profile set, falling back to default profiles: default
+2020-08-07 14:57:09.541  INFO ctsjcloud115 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-07 14:57:09.659  INFO ctsjcloud115 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102ms. Found 1 JPA repository interfaces.
+2020-08-07 14:57:10.734  INFO ctsjcloud115 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8084 (http)
+2020-08-07 14:57:10.756  INFO ctsjcloud115 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8084"]
+2020-08-07 14:57:10.757  INFO ctsjcloud115 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-08-07 14:57:10.758  INFO ctsjcloud115 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-07 14:57:10.960  INFO ctsjcloud115 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-08-07 14:57:10.961  INFO ctsjcloud115 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2581 ms
+2020-08-07 14:57:11.232  INFO ctsjcloud115 --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 14:57:11.268  INFO ctsjcloud115 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-08-07 14:57:11.571  INFO ctsjcloud115 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-08-07 14:57:11.668  INFO ctsjcloud115 --- [         task-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-07 14:57:11.767  WARN ctsjcloud115 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-07 14:57:11.799  INFO ctsjcloud115 --- [         task-1] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-07 14:57:12.082  INFO ctsjcloud115 --- [         task-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-07 14:57:12.365  INFO ctsjcloud115 --- [         task-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-07 14:57:12.377  INFO ctsjcloud115 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8084"]
+2020-08-07 14:57:12.419  INFO ctsjcloud115 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8084 (http) with context path ''
+2020-08-07 14:57:12.421  INFO ctsjcloud115 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-07 14:57:13.594  INFO ctsjcloud115 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-07 14:57:13.610  INFO ctsjcloud115 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 14:57:14.139  INFO ctsjcloud115 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-07 14:57:14.151  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : Started RegisterLoanApplication in 6.536 seconds (JVM running for 8.165)
+2020-08-07 14:57:20.971  INFO ctsjcloud115 --- [nio-8084-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 14:57:20.972  INFO ctsjcloud115 --- [nio-8084-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-08-07 14:57:20.991  INFO ctsjcloud115 --- [nio-8084-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 19 ms
+2020-08-07 14:57:21.200  INFO ctsjcloud115 --- [nio-8084-exec-2] c.R.L.s.RegisterLoanService              : CustomerUpdation : Inside Customer Updation Service
+2020-08-07 14:57:21.396  INFO ctsjcloud115 --- [nio-8084-exec-2] c.R.L.s.RegisterLoanService              : RegisterLoanApp : The Loan is applied
+2020-08-07 15:04:23.548  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : The RegisterLoanApplication app
+2020-08-07 15:04:23.561 ERROR ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : Error level log message
+2020-08-07 15:04:24.631  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : Starting RegisterLoanApplication on ctsjcloud115 with PID 12372 (C:\Users\javacloudmc91\Downloads\aug7_final\RegisterLoan\target\classes started by javacloudmc91 in C:\Users\javacloudmc91\Downloads\aug7_final\RegisterLoan)
+2020-08-07 15:04:24.638  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : No active profile set, falling back to default profiles: default
+2020-08-07 15:04:26.275  INFO ctsjcloud115 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-07 15:04:26.434  INFO ctsjcloud115 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141ms. Found 1 JPA repository interfaces.
+2020-08-07 15:04:27.974  INFO ctsjcloud115 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8084 (http)
+2020-08-07 15:04:28.034  INFO ctsjcloud115 --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8084"]
+2020-08-07 15:04:28.035  INFO ctsjcloud115 --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-08-07 15:04:28.035  INFO ctsjcloud115 --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-07 15:04:28.335  INFO ctsjcloud115 --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-08-07 15:04:28.335  INFO ctsjcloud115 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3598 ms
+2020-08-07 15:04:28.740  INFO ctsjcloud115 --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 15:04:28.776  INFO ctsjcloud115 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-08-07 15:04:29.223  INFO ctsjcloud115 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-08-07 15:04:29.354  INFO ctsjcloud115 --- [         task-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-07 15:04:29.440  WARN ctsjcloud115 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-07 15:04:29.501  INFO ctsjcloud115 --- [         task-1] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-07 15:04:29.836  INFO ctsjcloud115 --- [         task-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-07 15:04:30.133  INFO ctsjcloud115 --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8084"]
+2020-08-07 15:04:30.216  INFO ctsjcloud115 --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8084 (http) with context path ''
+2020-08-07 15:04:30.219  INFO ctsjcloud115 --- [           main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-07 15:04:30.246  INFO ctsjcloud115 --- [         task-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-07 15:04:31.851  INFO ctsjcloud115 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-07 15:04:31.869  INFO ctsjcloud115 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 15:04:32.602  INFO ctsjcloud115 --- [           main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-07 15:04:32.615  INFO ctsjcloud115 --- [           main] c.R.L.RegisterLoanApplication            : Started RegisterLoanApplication in 8.791 seconds (JVM running for 11.475)
+2020-08-07 15:04:45.390  INFO ctsjcloud115 --- [nio-8084-exec-3] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 15:04:45.391  INFO ctsjcloud115 --- [nio-8084-exec-3] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-08-07 15:04:45.406  INFO ctsjcloud115 --- [nio-8084-exec-3] o.s.w.s.DispatcherServlet                : Completed initialization in 15 ms
+2020-08-07 15:04:45.647  INFO ctsjcloud115 --- [nio-8084-exec-3] c.R.L.s.RegisterLoanService              : CustomerUpdation : Inside Customer Updation Service
+2020-08-07 15:05:30.372  INFO ctsjcloud115 --- [nio-8084-exec-3] c.R.L.s.RegisterLoanService              : RegisterLoanApp : This particular loan type already exixts for the customer
+2020-08-07 15:05:47.708  INFO ctsjcloud115 --- [nio-8084-exec-7] c.R.L.s.RegisterLoanService              : CustomerUpdation : Inside Customer Updation Service
+2020-08-07 15:05:50.220  INFO ctsjcloud115 --- [nio-8084-exec-7] c.R.L.s.RegisterLoanService              : RegisterLoanApp : The Loan is applied
